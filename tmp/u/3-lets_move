@@ -1,2 +1,0 @@
-#! /bin/sh
-find /home/john/Desktop/Curso_DevOps/validation/module0_task3/ -name "[A-Z]*" -exec mv -t /home/john/Desktop/Curso_DevOps/validation/tmp/u/ {} +
