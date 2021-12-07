@@ -15,7 +15,7 @@ check: ## should fail when one of the 2 following steps fails:Lint of the Markdo
 
 
 validate: ## should validate the file ./dist/index.html by using the command line Holberton's W3C Validator, but should not fail if the file is not valid: you expect it to be a non-blocking quality indicator.
-	/home/carlos/W3C-Validator/w3c_validator.py ./dist/index.html > /dev/null 2>&1 || true;
+	/home/john/Desktop/Curso_DevOps/W3C-Validator/w3c_validator.py ./dist/index.html > /dev/null 2>&1 || true;
 	     
 help: ## da una breve descripcion de todos los comandos
 	grep '##' ./Makefile  | sed 's/ ##/ /' |  head -n -1
