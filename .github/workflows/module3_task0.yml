@@ -14,8 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Clone repositori
-      run: git clone https://github.com/Oragula3/validation.git /home/john/Desktop/Curso_DevOps/Clone/
-
     - name: Make help
       run: make help
