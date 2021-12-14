@@ -15,4 +15,4 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: Make help
-      run: echo Hello from Octo Organization
+      run: cd https://github.com/Oragula3/validation/tree/main/module3_task0 make help
