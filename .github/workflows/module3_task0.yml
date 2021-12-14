@@ -17,5 +17,4 @@ jobs:
     - name: Make help
       working-directory: ./module3_task0
       run: |
-       git clone https://github.com/Oragula3/validation.git /home/john/Desktop/Curso_DevOps/Clone/
        make help
