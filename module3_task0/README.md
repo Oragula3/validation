@@ -88,4 +88,4 @@ it has 3 stages:
 	 to validate that the functions are behaving as expected when wired together.
 	 
 ### Workflow
-	iscover, create, and share actions to perform any job you'd like, including CI/CD, and combine actions in a completely customized workflow...
+	iscover, create, and share actions to perform any job you'd like, including CI/CD, and combine actions in a completely customized workflow.
