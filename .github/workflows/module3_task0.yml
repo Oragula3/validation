@@ -8,12 +8,11 @@ on:
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@main
-        with:
-          fetch-depth: 1
-      - name: Run Makefile
-        env:
-          TOKEN: ${{ secrets.TOKEN }}
-        run: make help
+    - uses: actions/checkout@v2
+    
+    - name: Make help
+      run: make help
