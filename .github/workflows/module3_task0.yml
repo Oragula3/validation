@@ -15,4 +15,5 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: Make help
-      run: cd https://github.com/Oragula3/validation/tree/main/module3_task0 make help
+      working-directory: ./module3_task0
+      run: make help
