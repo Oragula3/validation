@@ -1,0 +1,40 @@
+name: module3_task0
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron:  '30 17 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Ejecutar setup.sh
+      working-directory: ./module3_task0
+      run: ./setup.sh
+    
+    - name: Make Lint
+      working-directory: ./module3_task0
+      run: make lint
+    
+    - name: Make Build
+      working-directory: ./module3_task0
+      run: make build
+      
+    - name: Make Unit-tests
+      working-directory: ./module3_task0
+      run: make unit-tests
+      
+    - name: Make Validate
+      working-directory: ./module3_task0
+      run: make validate
+      
+    - name: Make Integration-tests
+      working-directory: ./module3_task0
+      run: make integration-tests
+      
