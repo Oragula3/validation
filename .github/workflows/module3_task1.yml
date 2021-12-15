@@ -15,7 +15,6 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: Ejecutar setup.sh
-      working-directory: ./module3_task0
       run: ./setup.sh
     
     - name: Make Lint
