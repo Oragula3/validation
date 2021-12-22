@@ -13,3 +13,7 @@ Carpeta log
 ### Validar ejecución;
 
 make validate
+
+## release
+
+se genera nuevo release
