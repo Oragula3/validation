@@ -40,6 +40,6 @@ validate: ## should validate the file ./dist/index.html by using the command lin
 help: ## da una breve descripcion de todos los comandos
 	grep '##' ./Makefile  | sed 's/ ##/ /' |  head -n -1
 
-package: para generar el ZIP
+package: ## para generar el ZIP
 	zip -r awesome-website.zip Makefile dist/*
 
